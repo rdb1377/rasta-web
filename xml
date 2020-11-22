@@ -9,10 +9,7 @@
 
 <channel>
 	<title>Snippets</title>
-	<sy:updatePeriod>
-	hourly	</sy:updatePeriod>
-	<sy:updateFrequency>
-	1	</sy:updateFrequency>
+	
 		<item>
 		<title>فعالسازی امن و استاندارد حالت در پی.اچ.پی</title>
 		
