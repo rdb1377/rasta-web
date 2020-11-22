@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <channel>
 	<title>Snippets</title>
 	<atom:link href="http://snippets.ir/feed" rel="self" type="application/rss+xml" />
@@ -13,5 +12,30 @@
 	1	</sy:updateFrequency>
 		<item>
 		<title>فعالسازی امن و استاندارد حالت دیباگ در پی.اچ.پی</title>
+		<link>http://snippets.ir/1450/enable-secure-debug-mode-in-php.html</link>
+					<comments>http://snippets.ir/1450/enable-secure-debug-mode-in-php.html#respond</comments>
+		
+		<dc:creator><![CDATA[مهدی یوسفی]]></dc:creator>
+		<pubDate>Mon, 20 Jul 2020 07:23:43 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[debug]]></category>
+		<category><![CDATA[debugging]]></category>
+		<category><![CDATA[دیباگ]]></category>
+		<category><![CDATA[دیباگ استاندارد]]></category>
+		<category><![CDATA[دیباگ امن]]></category>
+		<category><![CDATA[دیباگ وردپرس]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1450</guid>
+
+					<description><![CDATA[<p>یکی از تفاوت‌هایی که زبان php با زبان‌های کامپایلری دارد این است که ممکن است در زمان خروجی گرفتن و سپس بارگذاری روی سرور تمامی باگ‌های آن را متوجه نشوید. این خاصیت زبان‌های مفسری است. به همین دلیل گاها در حالت production با خطایی روبرو می‌شوید که باید بدون بستن سایت بروی بازدید کننده‌ها، آن...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1450/enable-secure-debug-mode-in-php.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1450/enable-secure-debug-mode-in-php.html">فعالسازی امن و استاندارد حالت دیباگ در پی.اچ.پی</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1450/enable-secure-debug-mode-in-php.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		
 		
 	</channel>
