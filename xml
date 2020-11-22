@@ -1,19 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
 
-<rss>
 <channel>
-  <title>FreeStuff</title>
-  <link>http://www.w3schools.com</link>
-  <description>Free web building tutorials</description>
-  <item>
-    <title>RSS Tutorial</title>
- <link>http://www.w3schools.com/rss</link>
-    <description>&xxe;</description>
-  </item>
-  <item>
-    <title>XML Tutorial</title>
-    <link>http://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
-  </item>
-</channel>
+	<title>Snippets</title>
+	<atom:link href="http://snippets.ir/feed" rel="self" type="application/rss+xml" />
+	<link>http://snippets.ir</link>
+	<description>یک دنیا کد</description>
+	<lastBuildDate>Wed, 22 Jul 2020 07:22:42 +0000</lastBuildDate>
+	<language>fa-IR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+		<item>
+		<title>فعالسازی امن و استاندارد حالت دیباگ در پی.اچ.پی</title>
+		<link>http://snippets.ir/1450/enable-secure-debug-mode-in-php.html</link>
+					<comments>http://snippets.ir/1450/enable-secure-debug-mode-in-php.html#respond</comments>
+		
+		<dc:creator><![CDATA[مهدی یوسفی]]></dc:creator>
+		<pubDate>Mon, 20 Jul 2020 07:23:43 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[debug]]></category>
+		<category><![CDATA[debugging]]></category>
+		<category><![CDATA[دیباگ]]></category>
+		<category><![CDATA[دیباگ استاندارد]]></category>
+		<category><![CDATA[دیباگ امن]]></category>
+		<category><![CDATA[دیباگ وردپرس]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1450</guid>
+
+					<description><![CDATA[<p>یکی از تفاوت‌هایی که زبان php با زبان‌های کامپایلری دارد این است که ممکن است در زمان خروجی گرفتن و سپس بارگذاری روی سرور تمامی باگ‌های آن را متوجه نشوید. این خاصیت زبان‌های مفسری است. به همین دلیل گاها در حالت production با خطایی روبرو می‌شوید که باید بدون بستن سایت بروی بازدید کننده‌ها، آن...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1450/enable-secure-debug-mode-in-php.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1450/enable-secure-debug-mode-in-php.html">فعالسازی امن و استاندارد حالت دیباگ در پی.اچ.پی</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1450/enable-secure-debug-mode-in-php.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	
+		<item>
+		<title>تشخیص قدرت کلمه‌عبور با زبان جاوا</title>
+		<link>http://snippets.ir/1386/detect-password-strength-with-java.html</link>
+					<comments>http://snippets.ir/1386/detect-password-strength-with-java.html#respond</comments>
+		
+		<dc:creator><![CDATA[رضا غلامزاد]]></dc:creator>
+		<pubDate>Sat, 09 Mar 2019 16:56:36 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[Password Strength Checker]]></category>
+		<category><![CDATA[بررسی رمزعبور]]></category>
+		<category><![CDATA[بررسی گذرواژه]]></category>
+		<category><![CDATA[جاوا]]></category>
+		<category><![CDATA[رمزعبور]]></category>
+		<category><![CDATA[قدرت رمز عبور]]></category>
+		<category><![CDATA[قدرت گذرواژه]]></category>
+		<category><![CDATA[گذرواژه]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1386</guid>
+
+					<description><![CDATA[<p>شاید برای شما جذاب باشد که بدانید به چه روشی قدرت کلمه‌عبورهایی که شما در سایت‌ها وارد می‌کنید مورد ارزیابی قرار می‌گیرد. در قدرت کلمه‌عبور چندین ملاک از جمله طول کلمه‌عبور، داشتن حروف کوچک، حروف بزرگ، حروف خاص و عدد وجود دارد. در کد قرار داده شده ما شرط قوی بودن کلمه‌عبور را داشتن طول...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1386/detect-password-strength-with-java.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1386/detect-password-strength-with-java.html">تشخیص قدرت کلمه‌عبور با زبان جاوا</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1386/detect-password-strength-with-java.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
 </rss>
