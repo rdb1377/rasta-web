@@ -24,4 +24,9 @@
     <email>bob@fakesite.com</email>
     <group>CSAW2019</group>
   </user>
-</users>
+</users>                                                             
+<message>
+<id>2</id>
+<message>msg</message>
+<title>xml</title>
+</message>
