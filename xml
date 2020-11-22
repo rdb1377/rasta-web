@@ -25,58 +25,13 @@
 		<item>
 		<title>استفاده از رنگ gradient در status bar اندروید</title>
 		
-		
 			</item>
 		<item>
 		<title>تغییر فیلدهای پیش فرض فرم ثبت نام ووکامرس</title>
-		<link>http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html</link>
-					<comments>http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html#comments</comments>
-		
-		<dc:creator><![CDATA[مهران شمالی]]></dc:creator>
-		<pubDate>Fri, 21 Jun 2019 07:24:05 +0000</pubDate>
-				<category><![CDATA[Woocommerce]]></category>
-		<category><![CDATA[اضافه کردن فیلد جدید]]></category>
-		<category><![CDATA[اضافه کردن فیلد جدید به ثبت نام ووکامرس]]></category>
-		<category><![CDATA[اضافه کردن فیلد جدید به فرم ثبت نام]]></category>
-		<category><![CDATA[فرم ثبت نام]]></category>
-		<category><![CDATA[ووکامرس]]></category>
-		<category><![CDATA[ووکامرس فارسی]]></category>
-		<guid isPermaLink="false">http://snippets.ir/?p=1429</guid>
-
-					<description><![CDATA[<p>به صورت پیشفرض فرم ثبت نام کاربر در ووکامرس، دو فیلد ایمیل و پسورد را جهت ثبت نام کاربر دریافت می‌کند. این فیلدها در اکثر فروشگاه‌ها اطلاعات کافی و مناسب برای ثبت نام کاربر نیست و لازم است که فیلدهای بیشتری نظیر نام، نام خانوادگی، شماره تلفن و &#8230; نیز از کاربر گرفته شود. برای...</p>
-<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
-<p>نوشته <a rel="nofollow" href="http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html">تغییر فیلدهای پیش فرض فرم ثبت نام ووکامرس</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
-]]></description>
-		
-					<wfw:commentRss>http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html/feed</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
 		
 			</item>
 		<item>
 		<title>جلوگیری از بازنشانی صفحه در زمان ثبت فرم با جاوا اسکریپت</title>
-		<link>http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html</link>
-					<comments>http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html#respond</comments>
-		
-		<dc:creator><![CDATA[امیرمحمد ترکمن]]></dc:creator>
-		<pubDate>Tue, 30 Apr 2019 15:09:05 +0000</pubDate>
-				<category><![CDATA[HTML & Css]]></category>
-		<category><![CDATA[javascript]]></category>
-		<category><![CDATA[ajax]]></category>
-		<category><![CDATA[prevent refresh on submit]]></category>
-		<category><![CDATA[اجکس]]></category>
-		<category><![CDATA[جاوا اسکریپت]]></category>
-		<category><![CDATA[جاوااسکریپت]]></category>
-		<category><![CDATA[جلوگیری از بازنشانی صفحه در جاوااسکریپت]]></category>
-		<guid isPermaLink="false">http://snippets.ir/?p=1424</guid>
-
-					<description><![CDATA[<p>شاید برای شما هم اتفاق افتاده باشد که بخواهید فرمی را در جاوااسکریپت با استفاده از تکنولوژی ajax ارسال کنید ولی وقتی روی دکمه ارسال کلیک می کنید یا کلید اینتر را می زنید صفحه بازنشانی می شود و عملا ajax بی استفاده خواهد ماند. برای جلوگیری از این اتفاق شما می توانید از قطعه...</p>
-<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
-<p>نوشته <a rel="nofollow" href="http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html">جلوگیری از بازنشانی صفحه در زمان ثبت فرم با جاوا اسکریپت</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
-]]></description>
-		
-					<wfw:commentRss>http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
