@@ -24,27 +24,6 @@
 			</item>
 		<item>
 		<title>استفاده از رنگ gradient در status bar اندروید</title>
-		<link>http://snippets.ir/1434/use-gradiant-color-in-status-bar-android.html</link>
-					<comments>http://snippets.ir/1434/use-gradiant-color-in-status-bar-android.html#respond</comments>
-		
-		<dc:creator><![CDATA[امیرحسین ایرانمنش]]></dc:creator>
-		<pubDate>Sat, 06 Jul 2019 21:43:32 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[android]]></category>
-		<category><![CDATA[gradient]]></category>
-		<category><![CDATA[اندروید]]></category>
-		<category><![CDATA[جاوا]]></category>
-		<category><![CDATA[رنگ status bar]]></category>
-		<category><![CDATA[رنگ نوار وضعیت]]></category>
-		<guid isPermaLink="false">http://snippets.ir/?p=1434</guid>
-
-					<description><![CDATA[<p>ممکن است بعضی وقت ها بخواهید رنگ status bar اپلیکیشن اندرویدی خود را تغییر دهید و به جای آن از یک رنگ gradient استفاده کنید. این کار جلوه ویژه ای به اپلیکیشن شما می بخشد. برای انجام این کار کافیست مراحل دو گانه زیر را انجام دهید. کد زیر را قبل از فراخوانی تابع setContentView()...</p>
-<p class="read-more"><a class="btn btn-default" href="http://snippets.ir/1434/use-gradiant-color-in-status-bar-android.html"> Read More<span class="screen-reader-text">  Read More</span></a></p>
-<p>نوشته <a rel="nofollow" href="http://snippets.ir/1434/use-gradiant-color-in-status-bar-android.html">استفاده از رنگ gradient در status bar اندروید</a> اولین بار در <a rel="nofollow" href="http://snippets.ir">Snippets</a> پدیدار شد.</p>
-]]></description>
-		
-					<wfw:commentRss>http://snippets.ir/1434/use-gradiant-color-in-status-bar-android.html/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
