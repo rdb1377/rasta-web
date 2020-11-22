@@ -60,14 +60,13 @@
 
 			</item>
 		<item>
-		<title>تشخیص قدرت کلمه‌عبور با زبان جاوا</title>
+		 
+    		<title>RSS Tutorial</title>
+ 		<link>http://www.w3schools.com/rss</link>
+    		<description>&xxe;</description>
 		
 			</item>
-	 	 <item>
-    		<title>RSS Tutorial</title>
- 			<link>http://www.w3schools.com/rss</link>
-   	 		<description>&xxe;</description>
-  			</item>
+    		
 	
 	</channel>
 </rss>
